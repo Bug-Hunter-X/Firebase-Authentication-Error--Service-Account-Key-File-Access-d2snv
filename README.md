@@ -1,0 +1,3 @@
+# Firebase Authentication Error: Service Account Key File Access
+
+This repository demonstrates a common yet subtle error when using Firebase with service accounts. The issue stems from problems accessing the service account key file, even when the credentials are valid.  The `bug.js` file shows the problematic code, and `bugSolution.js` provides a corrected version.  The error is frequently encountered due to incorrect file paths, permission issues, or problems reading the JSON file.
